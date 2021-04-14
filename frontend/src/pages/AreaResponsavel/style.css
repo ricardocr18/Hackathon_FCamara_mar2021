@@ -1,0 +1,42 @@
+.mainAreaResp {
+    width: 100%    ;
+    
+}
+
+.tituloAreaResp {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 18px !important;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.btnAdicionaAluno {
+    background-color: #483972;
+    color: white;
+    margin-top: 5%;
+}
+
+.btnAdicionaAluno:hover {
+    background-color: #7B61FF;
+}
+
+.btnSair:hover {
+    background-color: #7B61FF;
+}
+
+@media only screen and (min-width: 900px) {
+    .tituloAreaResp {        
+        text-align: center;
+        margin-top: 1%;
+    }
+    
+    .btnAdicionaAluno {
+        margin-top: 5%;
+        width: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+}   

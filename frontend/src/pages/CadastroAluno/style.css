@@ -1,0 +1,212 @@
+
+.mainCadAluno {
+    background-color: white;    
+}
+
+/* MOBILE FIRST */
+
+@media only screen and (max-width: 1000px) {
+    #imgAlunos {
+        display: none;
+    }
+}
+
+.titulo {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.subtitulo1 {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 2%; 
+    text-align: left;
+}
+
+.subtitulo2 {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 2%; 
+    text-align: left; 
+}
+
+.subtitulo3 {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 55px;
+    margin-left: 0%; 
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-top: 5%; */
+}
+
+.linhaForm1 {
+    margin-top: 25px;
+    align-items: center;
+}
+
+
+#btnEnviar {    
+    background-color: #483972;
+    border-radius: 8px;    
+    width: 130px;
+    height: 35px;    
+    left: 13.08%;
+    right: 12.31%;
+    top: 22.86%;
+    bottom: 22.86%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: center;
+    color: #FFFFFF;
+    float:right !important;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+}    
+
+@media only screen and (max-width: 320px) {
+
+    .titulo {
+        color: #483972;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 24px;   
+        
+    }
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    #campoNome {    
+        width: 260px !important;
+    }
+
+    #campoNascimento {
+        width: 260px !important;
+    }
+
+    #campoMatricula {
+        width: 260px !important;
+    }
+
+    #campoUf {
+        width: 260px !important;
+    }
+
+    #campoCidade {
+        width: 260px !important;
+    }
+
+    #campoBairro {
+        width: 260px !important;
+    }
+
+    #campoEscola {
+        width: 260px !important;
+    }
+
+    #caixaTexto {
+        width: 260px !important;
+    }
+
+    .btnAvatar {
+        background-color: transparent ;
+        margin-top: 5%;
+        margin-right: 2% !important;
+    }
+
+}
+
+
+/* AJUSTE BOTAO */
+
+@media only screen and (min-width: 371px) {
+    #btnEnviar {    
+        background-color: #483972;
+        border-radius: 8px;    
+        width: 130px;
+        height: 35px;    
+        left: 13.08%;
+        right: 12.31%;
+        top: 22.86%;
+        bottom: 22.86%;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;     
+        text-align: center;
+        color: #FFFFFF;
+        float:left !important;
+        margin-top: 25px;        
+        margin-bottom: 45px;
+    }  
+    
+}     
+
+
+/* AJUSTES PARA DESKTOP */
+
+@media only screen and (min-width: 1001px) {
+    .main {
+      background-color: #F1F1F1;      
+    }
+    .formulario {
+        background-color: white;
+        
+    }
+    #imgAlunos {            
+        margin-top: 5%;  
+        margin-right: 25%;
+        float: right;            
+    }
+   
+   .titulo {
+        color: #483972;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        text-align: left;
+        margin-top: -10%;
+        margin-left: 0%; 
+    }
+    
+  }
+
+.btnAvatar {
+    background-color: transparent ;
+    margin-top: 5%;
+    margin-right: 8%;
+}
+
+.btnAvatarSelecionado {
+    border: 3px solid #483972;
+    height: auto;
+    border-radius: 50% !important;
+}

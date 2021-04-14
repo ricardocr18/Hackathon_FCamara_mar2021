@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.main {
+    background-color: white;
+}
+
+
+/* MOBILE FIRST */
+.titulo {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.subtitulo1 {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 0%; 
+}
+
+#caixa {
+    width: 260px !important;
+    border-radius: 5%;
+    
+}
+
+#valorSaldo {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#opcaoPapelaria {
+    background-color: #7B61FF;
+    color: white;
+    width: 260px !important;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+#caixaSaldo {
+    background-color: #7B61FF;
+    color: white;
+    width: 260px !important;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border-radius: 5%;
+    text-align: center;
+    
+}
+
+#caixaSaldo:hover{
+    cursor: pointer;
+}
+
+#styleCard {
+    width: 260px !important;
+    margin-top: 5%;
+    align-items: center;
+    background-color: #483972;
+    border-radius: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 300px;
+   
+    
+}
+
+.imgProduto {
+    margin-top: 5%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.tituloProduto {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.infoProdutos {
+    background-color: #483972;
+    color: white;
+    width: 260px !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.linkProdutos {
+    color: #7B61FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tresCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media only screen and (min-width: 370px) {
+
+    .titulo {
+        color: #483972;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        text-align: center !important;
+        margin-top: -5% !important;
+    }
+    
+    .subtitulo1 {
+        color: #483972;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 0%; 
+        
+    }
+    
+    #caixa {
+        width: 260px !important;
+        border-radius: 5%;
+        
+    }
+    
+    #valorSaldo {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        
+    }
+    
+    #opcaoPapelaria {
+        background-color: #7B61FF;
+        color: white;
+        width: 260px !important;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-top: 1%;
+        
+    }
+    
+    #caixaSaldo {
+        background-color: #7B61FF;
+        color: white;
+        width: 260px !important;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        border-radius: 5%;
+        text-align: center;
+        
+        
+    }
+
+    #botoes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}   
+
+
+@media only screen and (max-width: 320px) {
+
+       
+    #caixa {
+        width: 200px !important;
+        border-radius: 5%;
+        
+    }
+    
+    #valorSaldo {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+    
+    #opcaoPapelaria {
+        background-color: #7B61FF;
+        color: white;
+        width: 200px !important;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        margin-top: 5%;
+    }
+    
+    #caixaSaldo {
+        background-color: #7B61FF;
+        color: white;
+        width: 200px !important;
+        height: 50px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        border-radius: 5%;
+        text-align: center;
+        
+    }
+    
+    #styleCard {
+        width: 260px !important;
+        margin-top: 5%;
+        align-items: center;
+        background-color: #483972;
+        border-radius: 5%;
+        margin-left: 2%;
+        margin-right: 2%;
+       
+        
+    }
+    
+    .imgProduto {
+        margin-top: 5%;
+        width: 100px;
+        height: 100px;
+        
+    }
+    
+    .tituloProduto {
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .infoProdutos {
+        background-color: #483972;
+        color: white;
+        width: 200px !important;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .linkProdutos {
+        color: #7B61FF;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .tresCards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    #botoes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

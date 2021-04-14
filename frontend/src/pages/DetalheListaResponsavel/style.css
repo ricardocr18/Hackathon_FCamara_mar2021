@@ -1,0 +1,80 @@
+.tituloListaResp {
+  font-size: 22px !important;
+  text-align: center;
+}
+
+.infoAlunoLista {
+  margin-top: 5%;
+}
+
+.nomeAluno {
+  font-size: 18px;
+}
+
+.avatarAluno {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 0px 0px;
+  margin-top: 5% !important;
+}
+
+.pPadrao {  
+  margin-bottom: 0%;
+}
+
+.subListaResp {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.pAberto {
+  line-height: 50px;
+  text-align: center;
+}
+
+.pItem {
+  line-height: 50px;  
+}
+
+button{
+  background: #483972;
+  width: 130px;
+  height: 35px;
+  color: white;
+  border: 0;
+  border-radius: 8px !important;
+  align-self: right;
+}
+
+@media only screen and (max-width: 774px) {
+  .produto{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.42);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;  
+  }
+
+  .pAberto {
+    line-height: 30px;
+    text-align: center;
+  }
+ 
+  .pItem {
+    line-height: 20px;  
+    
+  }
+  
+
+}
+
+@media only screen and (max-width: 320px) {
+  .produto {
+    height: 100px;
+  }
+}

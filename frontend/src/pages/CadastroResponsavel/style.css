@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.mainResponsavel {
+    background-color: white;
+    width: 100%!important;
+}
+
+/* MOBILE FIRST */
+
+
+.tituloResponsavel {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.sub1 {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 0%; 
+}
+
+.sub2 {
+    color: #483972;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linhaForm1 {
+    margin-top: 25px;
+    align-items: center;
+}
+
+#campoNome {    
+    width: 320px;
+    height: 56px;
+    left: 20px;
+    top: 262px;
+    background: #FFFFFF;
+    border-radius: 10px;    
+    border: 1px solid #DEDEDE;
+}
+
+#campoNome:hover {
+    border: 1px solid #3C3C3C;
+    box-sizing: border-box;
+    box-shadow: inset -1px 0px 2px 3px rgba(0, 0, 0, 0.24);
+}
+
+#campoCPF {    
+    width: 320px;
+    height: 56px;
+    left: 20px;
+    top: 262px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+#campoCPF:hover {    
+    border: 1px solid #3C3C3C;
+    box-sizing: border-box;
+    box-shadow: inset -1px 0px 2px 3px rgba(0, 0, 0, 0.24);
+}
+
+#campoCPF::after {
+    border: none;
+}
+
+#campoTel {    
+    width: 320px;
+    height: 56px;
+    left: 20px;
+    top: 262px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+#campoTel:hover {
+    border: 1px solid #3C3C3C;
+    box-sizing: border-box;
+    box-shadow: inset -1px 0px 2px 3px rgba(0, 0, 0, 0.24);
+}
+
+#campoMail {    
+    width: 320px;
+    height: 56px;
+    left: 20px;
+    top: 262px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+#campoMail:hover {
+    border: 1px solid #3C3C3C;
+    box-sizing: border-box;
+    box-shadow: inset -1px 0px 2px 3px rgba(0, 0, 0, 0.24);
+}
+
+#campoSenha {    
+    width: 320px;
+    height: 56px;
+    left: 20px;
+    top: 262px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+#campoSenha:hover {
+    border: 1px solid #3C3C3C;
+    box-sizing: border-box;
+    box-shadow: inset -1px 0px 2px 3px rgba(0, 0, 0, 0.24);
+}
+
+#btnEnviar {    
+    background-color: #483972;
+    border-radius: 8px;    
+    width: 130px;
+    height: 35px;    
+    left: 13.08%;
+    right: 12.31%;
+    top: 22.86%;
+    bottom: 22.86%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px; 
+    text-align: center;
+    color: #FFFFFF;
+    float:right;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 45px;
+}    
+
+@media only screen and (max-width: 999px) {
+    #imgRespon {
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+   
+    #campoNome {    
+        width: 260px !important;
+    }
+    
+    #campoCPF {    
+        width: 260px !important;       
+    }      
+    
+    #campoTel {    
+        width: 260px !important;       
+    }   
+    
+    #campoMail {    
+        width: 260px !important;
+    }        
+    
+    #campoSenha {    
+        width: 260px !important;        
+    }   
+    
+
+}
+
+
+@media only screen and (min-width: 371px) {
+    #btnEnviar {    
+        background-color: #483972;
+        border-radius: 8px;    
+        width: 130px;
+        height: 35px;    
+        left: 13.08%;
+        right: 12.31%;
+        top: 22.86%;
+        bottom: 22.86%;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;     
+        text-align: center;
+        color: #FFFFFF;
+        float:left;
+        margin-top: 25px;        
+        margin-bottom: 45px;
+    }  
+    
+}     
+
+
+/* AJUSTES PARA DESKTOP */
+
+@media only screen and (min-width: 1001px) {
+    .main {
+      background-color: #F1F1F1;      
+    }
+    .formulario {
+        background-color: white;        
+    }
+    #imgRespon {        
+        margin-top: 5%;  
+        margin-right: 0%;
+        float: right;            
+    }
+
+
+
+    .tituloResponsavel {
+        color: #483972;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        margin-left: 0%; 
+        margin-top: 20px;
+        text-align: left;
+         
+    }    
+
+    .sub1 {
+        color: #483972;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 10%;       
+        text-align: left;
+        width: 320px;
+    }
+    
+    .sub2 {
+        color: #483972;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        margin-top: 15px;      
+        text-align: left;
+    }   
+
+    #btnEnviar {    
+        background-color: #483972;
+        border-radius: 8px;    
+        width: 130px;
+        height: 35px;    
+        left: 13.08%;
+        right: 12.31%;
+        top: 22.86%;
+        bottom: 22.86%;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;     
+        text-align: center;
+        color: #FFFFFF;
+        float:left;
+        margin-top: 25px;        
+        margin-bottom: 45px;
+    }   
+  }
+

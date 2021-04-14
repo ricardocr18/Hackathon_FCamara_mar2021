@@ -1,0 +1,236 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body{
+    background-color: #fff;
+}
+.div_texto{
+    display: none;
+}  
+
+.grid{
+    margin:10% 2% 0 2%;
+}
+#espacamento_texto_img{
+    margin-bottom: 25%;
+}
+.h2_titulo_login{
+    font-family: Roboto, sans-serif;
+    font-size: 24px; 
+    line-height: 28px;   
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #483972;
+    margin: 0 0 0 28px;
+}
+
+.img_login{
+    height: 150px;
+    width: auto;
+} 
+
+#form{
+    margin-bottom: 10%;
+}
+
+#input_login{
+    width: 100% !important;
+    height: 56px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #DEDEDE !important;
+    box-sizing: border-box !important; 
+    border-radius: 10px !important;
+}
+#input_login:hover{
+    width: 100% !important;
+    height: 56px !important;
+    background: #FFFFFF !important;
+    border: 1px solid #3DE959 !important;
+    box-sizing: border-box !important; 
+    box-shadow: 0px 0px 4px  #3DE959 !important;
+    border-radius: 10px !important;
+} 
+
+
+#buttonEntar{
+    background-color: #483972;
+    border-radius: 9.8px;
+    width: 160px;
+    height: 43px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFF;
+
+}
+#buttom_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonEntar:hover{
+    background-color: #7B61FF;
+    border-color:#7B61FF ;
+}
+@media (min-width: 320px){
+
+  .h2_titulo_login{
+      font-family: Roboto, sans-serif;
+      font-size: 20px; 
+      line-height: 24px;   
+      font-style: normal;
+      font-weight: 900;
+      text-align: left;
+      color: #483972;
+  }
+  .img_login{
+      height: 100px;
+      width: auto;
+  } 
+}
+
+@media (min-width: 540px){
+    .div_texto{
+        display: block;
+        margin-top: 20%;
+        margin-left: 5%;
+    }  
+    
+    #h1_login{
+    font-size: 32px;
+    line-height: 38px;
+ 
+    }
+    
+    #p_login{
+    font-size: 24px;
+    line-height: 28px; 
+    }
+}
+@media (min-width: 721px){
+    .div_texto{
+        display: block;
+    }
+    .grid{
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      margin-bottom: 5%;
+      width: 335px; 
+      /* height: auto;  */
+    
+  }  
+  .h2_titulo_login{
+    font-size: 24px; 
+    line-height: 28px;   
+    /* margin: 0 0 0 28px; */
+    width: 146px;
+    height: 113px;
+  }
+
+}
+
+@media (min-width: 992px){
+  .div_texto{
+      display: block;
+      margin-top: 20%;
+      margin-left: 10%;
+      margin-right: 8%;
+      
+  }
+  #h1_login{
+      font-size: 40px;
+      line-height: 56px;
+      margin-bottom: 40px;
+  }
+  #p_login{
+      font-size: 22px;
+      line-height: 26px;
+  }
+  .grid{
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      margin-bottom: 5%;
+      width: 382px;
+      /* height: auto;  */
+    
+  }
+  #espacamento_texto_img{
+      margin-bottom: 15%;
+      margin-top: 8%;
+  }
+  #form{
+      margin-top: 8%;
+      margin-bottom: 4%;
+  }
+  .h2_titulo_login{
+    font-size: 24px; 
+    line-height: 28px;   
+    /* margin: 0 0 0 28px; */
+    width: 146px;
+    height: 113px;
+  }
+  .img_login{
+      height: 100%;
+      width: auto;
+  } 
+
+}
+
+@media (min-width: 1200px){
+  .div_texto{
+    display: block;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 8%;
+    
+  }
+  #h1_login{
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 40px;
+  }
+  #p_login{
+    font-size: 24px;
+    line-height: 28px;
+    width: 479px;
+    height: 250px;
+  }
+  .grid{
+    width: 382px;
+    /* height: auto;  */
+    height: 500px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  #espacamento_texto_img{
+    margin-top:62px;
+    margin-bottom:60px;
+    
+  } 
+  .h2_titulo_login{
+    width: 146px;
+    height: 113px;
+  }
+  #form{
+    margin-top: 0;
+    /* margin-bottom: 4%; */
+  }
+  .img_login{
+    height: 100%;
+    width: auto;
+    margin-top:60px;
+  } 
+
+
+}

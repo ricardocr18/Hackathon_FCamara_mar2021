@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+/* .header_button{
+    margin-bottom: 0;
+} */
+body {
+    background-color: #ffffff;
+}
+#fundo_inicio{
+    background-image: url("../../assets/Rectangle2_home.png") ;
+    width: 100%; 
+    height: 550px;
+    padding: 45px 0 0 37px;
+    overflow:hidden;
+    margin-top: -15px;
+}
+
+.h1_titulo{
+    width: 197px;
+    height: 74px;
+    top: 135px; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #483972;
+} 
+.p_home{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #483972;
+} 
+
+.button1{
+    background: #483972;
+    color: #fff;
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin-top: 50px; */
+    
+}
+.button1:hover{
+    background-color: #7B61FF;
+    color: #fff;
+}
+#button_precipal{
+    display: none;
+}
+
+#seta{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+
+.h2_home{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    color: #483972;
+    margin-top:50px;
+    margin-left: 50%;
+    transform: translate(-50%,-50%); 
+}
+#MedidaPNaoRolarPLado{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.p_texto_imagem{
+    width: 100%;
+    height: 79px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #483972;
+    /* text-align: left;  */
+    /* padding: 0 0 0 34px; */
+    margin-left: 15%;
+}
+#img_nosso_objetivo{
+    width: 100%;
+    height: 90px;
+    margin-top: 10%;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#espacamento_h2{
+    margin-top: 87px;
+}
+
+.MedidaPNaoRolar{
+    margin: 0 10px 0 10px;
+}
+
+.p_centralizarTexto{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button2{
+    background: #483972;
+    border-radius: 8px;
+    width: 130px;
+    height: 35px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    
+}
+.button2:hover{
+    background-color: #7B61FF;
+    color: #fff;
+}
+
+#MedidaParaNaoRolarAPagina{
+    margin: 0 8px;
+} 
+
+.fundo_card{
+    margin-bottom: 10%;
+}
+/* .fundo_card{
+    margin-bottom: 50px;
+} */
+.img_card{
+    margin-top: 30px;
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.p_card{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #483972;
+    width: auto;
+    height: 67px;
+}
+
+
+@media (min-width: 540px){
+    #button_precipal{
+        display: none;
+    }
+    #fundo_inicio{
+        background-image: url("../../assets/Fundo_grade.png");
+        width: 100%;
+        height: 500px;
+        padding: 45px 0 0 10%;
+        align-items: center;
+    }
+
+    .h1_titulo{
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .p_home{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .button1{
+        top: 55%;
+        left: 28%;      
+    }
+    .h2_home{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .p_texto_imagem{
+        width: 80%;
+        height: auto;
+        font-size: 19px;
+        line-height: 21px;
+        margin-top: 5%;
+    }
+    #img_nosso_objetivo{
+        width: 90%;
+        height: auto;
+        margin-top: -5px;
+    }
+    .p_centralizarTexto{
+        width: 80%;
+        height: auto;
+    }
+
+    .fundo_card{
+        padding: 1% 1% 1% 1%;
+        box-shadow: 1px 1px 1px #DCDCDC;
+        background-color: #FAFAFA;
+    }
+
+    .img_card{
+        width: 70%;
+        height: auto;
+    }
+    .p_card{
+        width: auto;
+        height: auto;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+}
+
+@media (min-width: 721px){
+
+    #button_precipal{
+        display: none;
+    }
+    .h1_titulo{
+        font-size: 27px;
+        line-height: 29px;
+        left: 18%;
+    }
+
+    .p_home{
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .button1{
+        top: 55%;
+        left: 24%;      
+        margin-top: 50px; 
+    }
+    .img_card{
+        width: 60%;
+        height: auto;
+    }
+    .p_card{
+        width: auto;
+        height: auto;
+        font-size: 17px;
+        line-height: 18px;
+    }
+}
+@media (min-width: 992px){    
+    #fundo_inicio{
+        background-image: url("../../assets/Fundo_grade.png");
+        width: 100%;
+        height: 600px;
+        padding: 45px 0 0 166px;
+    }
+    .h1_titulo{
+        font-size: 45px;
+        line-height: 53px;
+        width: 100%;
+        margin-bottom: 60px;
+        margin-top: 90px;
+    }
+    .p_home{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #p_home_largura{
+        width: 480px;
+        height: 190px;
+    }
+    #espacamento_button2{
+        margin-top: 10%;
+    }
+    .button1{
+        top: 450px;
+        left: 265px;       
+    }
+    .h2_home{
+        font-size: 40px;
+        line-height: 44px;
+    }
+    #espacamento_h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .p_texto_imagem{
+        font-size: 22px;
+        line-height: 24px;
+        width: 80%;
+        height: auto;
+        margin-top: 50px;
+        padding-right: 20px;
+    }
+    #img_nosso_objetivo{
+        width: 90%;
+        height: 80%;
+    }
+
+    /* .p_centralizarTexto{
+        width: 527px;
+        height: 116px;
+    } */
+
+    .fundo_card{
+        padding: 1% 1% 1% 1%;
+        box-shadow: 1px 1px 1px #DCDCDC;
+        background-color: #FAFAFA;
+        margin-bottom: 15%;
+    }
+
+    .img_card{
+        width: 170px;
+        height: 170px;
+        margin-bottom: 70px;
+    }
+    .p_card{
+        width: auto;
+        height: auto;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    #fundo_inicio{
+        background-image: url("../../assets/Fundo_grade.png");
+        height: 680px;
+        width: 100%;
+        background-size: 100%;
+    }
+    
+    .h1_titulo{
+        font-size: 48px;
+        line-height: 56px;
+        width: 100%;
+        margin-bottom: 80px;
+        margin-top: 90px;
+    }
+    .p_home{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .button1{
+        top: 500px;
+        left: 265px;   
+        width: 212px;
+        height: 48px;
+        font-size: 20px;    
+    }
+    .h2_home{
+        font-size: 48px;
+        line-height: 53px;
+    }
+    .p_texto_imagem{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .button2{
+        width: 195px;
+        height: 53px;
+        font-size: 24px;
+        line-height: 28px;
+        padding-top: 10px;
+    }
+    #espacamento_button2{
+        margin-top: 8%;
+    }
+
+    .fundo_card{
+        margin-bottom: 15%;
+    }
+
+    .img_card{
+        width: 185px;
+        height: 185px;
+        margin-bottom: 70px;
+    }
+    .p_card{
+        width: 80%;
+        height: auto;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,106 @@
+.main {
+  width: 100%;
+}
+
+.tituloDetLista {
+  font-size: 22px !important;
+  text-align: center;
+}
+
+.infoDetLista {
+  margin-top: 5%;
+}
+
+.nomeAluno {
+  font-size: 18px;
+}
+
+.avatarAluno {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 0px 0px;
+  margin-top: 5% !important;
+}
+
+.subDetLista {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.produtoDet{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(196, 196, 196, 0.42);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 0;  
+}
+
+.pPreco {
+  line-height: 70px;
+  text-align: center;
+}
+
+.pItemDet {
+  line-height: 80px;  
+  margin-left: 5%;
+}
+
+.btnDoar {
+  background-color: #483972 ;
+  width: 200px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.btnDoar:hover {
+  background-color: #7B61FF ;
+}
+
+button{
+  background: #483972;
+  width: 130px;
+  height: 35px;
+  color: white;
+  border: 0;
+  border-radius: 8px !important;
+  align-self: right;
+}
+
+
+
+@media only screen and (max-width: 774px) {
+  .produtoDet{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.42);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;  
+  }
+
+  .pPreco {
+    line-height: 40px;
+    text-align: center;
+  }
+ 
+  .pItemDet {
+    line-height: 40px;  
+    margin-left: 3%;
+  }
+
+} 
+
+@media only screen and (max-width: 320px) {
+  .produto {
+    height: 100px;
+  }
+}

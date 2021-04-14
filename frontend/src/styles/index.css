@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.main{
+  width: 100% !important;
+}
+body{
+  background-color: #F1F1F1;
+}
+select, input:not([type="checkbox"]){
+  height: 56px !important;
+  width: 320px !important;
+  padding: 16px 24px !important;
+  border: 1px solid #DEDEDE !important;
+  border-radius: 10px !important;
+}
+
+textarea{
+  padding: 16px 24px !important;
+  border: 1px solid #DEDEDE !important;
+  border-radius: 10px !important;
+}
+
+
+input:not([type="checkbox"]):hover, select:hover, textarea{
+  border: 1px solid #3C3C3C;
+  box-shadow: inset -1px 0px 2px 3px rgba(0, 0, 0, 0.24);
+}
+
+.cartao-form{
+  width: 100%  !important;
+}
+
+.cartao-form button, .cartao-form  input{
+  width: 100% !important;
+}
+
+.erro {
+  color: #FA4339;
+  padding: .5em .2em;
+  font-size: .8em;
+}
+.erro-campo {
+  border: 1px solid #FA4339;
+  box-shadow: 0px 0px 4px #F24822;
+}
+
+.container{
+  min-height: 100vh;
+  background-color: white;
+  padding: 48px 50px;
+}
+
+.comprado{
+  background: rgba(196, 196, 196, 100);
+}
+
+.comprado p{
+    text-decoration: line-through;
+
+}
+
+.listaAluno{
+  max-width: 326px;
+  min-width: 326px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  height: 150px;
+  padding: 20px;
+  background-color: #fff !important;
+  border-radius: 8px;
+  flex: 1;
+  align-items: center;  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btnVerLista:hover {
+  background-color: #7B61FF;
+}
+.listaAluno:hover{
+  background-color: rgb(204, 219, 241);
+}
+.listaAluno div{
+  padding: 0px 14px;
+}
+
+.listaAluno p{
+  font-size: 14px;
+  color: #483972, 100%;
+}
+.listaAluno h2{
+  font-size: 18px;
+  color: #483972 !important;
+}
+.listaAluno img{
+  height: 81px;
+  width: 81px;
+  border-radius: 50%;
+}
+
+.produto{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(196, 196, 196, 0.42);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 0;
+
+}
+.produtoDet input[type="checkbox"]{
+  transform: scale(2);
+}
+.produto p{
+  margin: 0;
+  padding: 0 20px;
+
+  
+}
+
+.info-lista{
+  margin: auto;
+  display: flex;
+  
+  flex-direction: column;
+}
+.info-lista img{
+  height: 81px;
+  width: 81px;
+ 
+  border-radius: 50%;
+  
+}
+.info-produto{
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  width: 100%;
+  
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #483972;
+    border: 1px solid white;
+}
+
+button{
+  width: auto !important;
+}
+h1,h2,h3,h4,h5,h6, p{
+  color: #483972 !important;
+}
+
+h1,h2,h3,h4,h5,h6{ 
+   font-weight: bold;
+}
+
+.listagem{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.listagem a{
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    padding: 8px;
+  }
+}
